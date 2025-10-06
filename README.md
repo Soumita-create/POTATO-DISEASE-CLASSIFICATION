@@ -9,9 +9,7 @@ Source: PlantVillage Dataset
 Classes:
 
 Potato — Healthy
-
 Potato — Early Blight
-
 Potato — Late Blight
 
 The dataset is organized in subfolders, each representing a class.
