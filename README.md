@@ -6,7 +6,7 @@ The goal is to assist farmers and researchers in quickly identifying potato dise
 # Dataset
 Source: PlantVillage Dataset
 
-Classes:
+### Classes:
 
 Potato — Healthy
 
@@ -26,7 +26,7 @@ Resize all images to 256×256 and normalize pixel values
 ## Model Architecture
 Implemented with TensorFlow / Keras
 
-Typical CNN layers:
+### Typical CNN layers:
 
 Convolutional layers with ReLU activation
 
@@ -40,20 +40,26 @@ Output layer with Softmax activation (3 classes)
 
 ## Training
 Optimizer: Adam
+
 Loss Function: SparseCategoricalCrossentropy
+
 Epochs: 5 (can be increased for better accuracy)
+
 Batch Size: 32
 
 ## Evaluation
 
 Accuracy and Loss curves visualized with Matplotlib
+
 Tested on unseen validation and test sets
 
 ## Prediction
 
 Model predicts class of uploaded leaf image
+
 Sample predictions are displayed with labels
 
 # Results 
 The model achieves promising accuracy on the test set after just 5 epochs.
+
 With further tuning (increasing epochs, data augmentation, transfer learning), performance can be improved significantly.
